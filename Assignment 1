@@ -1,0 +1,13 @@
+1. The assembler and linker work together by the assembler converting the source code from assembly langauage into machine language, while
+the Linker combines the individuals files that are created by the assembler into a single executable program
+3. A high level language has a one-to-many releation compared to machine language becuase one statement in the high level language requires 
+multiple statements in the machine language
+8. I soppose that type checking on pointer variables in c and c++ is more stricter than assembly language can access memory addreses that
+high level languages get restricted on
+12. x = (y * 4) + 3
+    mov eax, y
+    add eax, 4
+    mov ebx, 3
+    imul ebx
+    mov x, eax
+
